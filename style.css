@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+
+html, body {
+	height:100%;
+	background:#eeeeee;
+}
+
+.computers {
+    width: 100%;
+    margin-top: 8vw;
+}
+
+article {
+  background: #3a3a3a;
+}
+
+section {
+  padding: 10vw 0 5vw 0;
+  margin-top: 0.5vw;
+  background: #ffffff;
+  height: auto;
+}
+
+#about {
+  background: #ffffff;
+}
+
+.text-about {
+  padding-right: 4vw;
+  color: rgb(71, 71, 71);
+}
+
+
+#experience {
+  background: #949494;
+}
+
+#portfolio {
+  background: #ffffff;
+}
+
+#contact{
+  background: #949494;
+}
+
+  
+
+
