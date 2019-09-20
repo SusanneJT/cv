@@ -3,13 +3,28 @@
 
 html, body {
 	height:100%;
-	background:#eeeeee;
+  background:#eeeeee;
+  position: relative;
+}
+
+nav {
+  border-bottom: 1px solid black;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: rgb(5, 5, 5) !important;
+  background-color: rgba(255, 255, 255, 0)!important;
+  font-weight: bold !important;
 }
 
 /* montagebild */
 .computers {
     width: 100%;
-    margin-top: 6vw;
+    margin-top: 5vw;
 }
 
 /* Allt mellan nav och footer*/
