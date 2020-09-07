@@ -5,6 +5,7 @@ html, body {
 	height:100%;
   background:#f3f3f3;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 /* *** Scrollbar *** */
@@ -98,6 +99,7 @@ section {
 }
 
 
+
 /* Projects */
 #project {
   background: #ffffff;
@@ -109,6 +111,9 @@ section {
   padding: 1vw;
   border-radius: 1vw;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
 }
 
 .card-title,h6 a {
@@ -139,6 +144,10 @@ section {
   font-size: 3em;
   color: #0077B5;
   margin-right: .4em;
+}
+
+.btm-text {
+  color: gray;
 }
 
 footer {
